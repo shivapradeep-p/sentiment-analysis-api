@@ -49,7 +49,7 @@ The model achieved an overall accuracy of approximately 79.89% on the test datas
 
 The API has a single endpoint for sentiment analysis: `/analyze`.
 
-**Endpoint:** `/analyze`
+**Endpoint:** `/predict`
 
 **Method:** `POST`
 
@@ -119,7 +119,7 @@ The API has a single endpoint for sentiment analysis: `/analyze`.
 *   **Request (bash):**
 
     ```bash
-    curl -X POST -H "Content-Type: application/json" -d '{"text": "This is a great product!"}' http://127.0.0.1:5000/analyze
+    Invoke-RestMethod -Uri "http://127.0.0.1:5000/predict" -Method POST -Body (@{"text"="I love this airline!"} | ConvertTo-Json) -ContentType "application/json"
     ```
 
 *   **Response (bash):**
