@@ -28,14 +28,15 @@ The project leverages the following key technologies:
 The model achieved an overall accuracy of approximately 79.89% on the test dataset. This indicates that the model correctly classified the sentiment of the text input around 80% of the time.
 
 **Classification Report:**
-          precision    recall  f1-score   support
 
-negative       0.85      0.92      0.88      1000
- neutral       0.59      0.49      0.54       500
-positive       0.82      0.78      0.80       700
-
-accuracy                           0.80      2200
-macro avg 0.75 0.73 0.74 2200 weighted avg 0.79 0.80 0.79 2200
+|               | precision | recall | f1-score | support |
+| :------------ | :-------- | :----- | :------- | :------ |
+| negative      | 0.85      | 0.92   | 0.88     | 1000    |
+| neutral       | 0.59      | 0.49   | 0.54     | 500     |
+| positive      | 0.82      | 0.78   | 0.80     | 700     |
+| **accuracy**  |           |        | **0.80** | 2200    |
+| **macro avg** | 0.75      | 0.73   | 0.74     | 2200    |
+| **weighted avg**| 0.79      | 0.80   | 0.79     | 2200    |
 
 **Key Observations from the Classification Report:**
 
