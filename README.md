@@ -140,7 +140,7 @@ The API has a single endpoint for sentiment analysis: `/analyze`.
 *   **Flask:** For enabling the creation of the API.
 *   **TF-IDF:** For the text vectorization technique.
 * **GridSearchCV:** For the hyperparameter tuning.
-*   **Potentially a dataset:** If a specific dataset was used for training, it should be acknowledged here. For example: "The model was trained on the **Twitter US Airline Sentiment** dataset."
+*   **Dataset:** The model was trained on the **Twitter US Airline Sentiment** dataset.
 
 **Future Work:**
 
